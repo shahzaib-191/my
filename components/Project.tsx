@@ -1,6 +1,6 @@
 import React from 'react';
 import SectionTitle from './SectionTitle';
-import { amazonImg, cyberImg, noorShop } from '@/public/assets';
+import { AmazonImg, cyberImg, noorShop } from '@/public/assets';
 import { AiOutlineYoutube } from 'react-icons/ai';
 import { TbBrandGithub } from 'react-icons/tb';
 import Image from 'next/image';
@@ -20,8 +20,8 @@ const Project = () => {
              target='_blank'>
             <div>
                 <Image className="w-full h-full"
-                src={amazonImg}
-                alt="amazonImg"
+                src={AmazonImg}
+                alt="AmazonImg"
                 />
             </div>
             </a>
